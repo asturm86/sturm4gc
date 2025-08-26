@@ -22,6 +22,21 @@
       margin-top: 0;
       color: #fff;
     }
+    .fb-icon-link {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 12px;
+      text-decoration: none;
+    }
+    .fb-icon-link svg {
+      width: 28px;
+      height: 28px;
+      fill: #fff;
+      transition: fill 0.2s;
+    }
+    .fb-icon-link:hover svg {
+      fill: #1877f3; /* Facebook blue */
+    }
     hr {
       border: none;
       border-top: 2px solid #fff;
@@ -62,7 +77,15 @@
 </head>
 <body>
 <div class="campaign-bg">
-  <h1>Alan Sturm</h1>
+  <h1>
+    Alan Sturm
+    <a href="http://fb.sturm4gc.com/" class="fb-icon-link" target="_blank" aria-label="Facebook page">
+      <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="16" cy="16" r="16" fill="#1877f3"/>
+        <path d="M22 16h-3v9h-4v-9h-2v-3h2v-2c0-2 1-3 3-3h3v3h-3v2h3v3z" fill="#fff"/>
+      </svg>
+    </a>
+  </h1>
   <h2>For Grove City Council - Ward 3</h2>
   
   <div class="bio">
